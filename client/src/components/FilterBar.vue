@@ -102,11 +102,13 @@ export default {
 
 <style scoped>
 .filters-bar {
-  background: #f8fafc;
+  background: rgba(248, 250, 252, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid #e2e8f0;
   padding: 0.75rem 0;
   position: sticky;
-  top: 70px;
+  top: 0; /* top nav was replaced by the sidebar */
   z-index: 90;
 }
 
